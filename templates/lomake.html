@@ -1,12 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="fi">
 <head>
-	<link rel=stylesheet href="{{url_for('static',filename='tyylit.css')}}">
+    <meta charset="UTF-8">
+    <title>Ikäkysely</title>
 </head>
 <body>
-	<h1>Tähän nimi kiitos!</h1>
-	<form method=GET action=vastaus>
-		<input type=text name="nimi">
-		<input type=submit value="Paina minua">
-	</form>
+    <h1>Anna ikäsi</h1>
+    <form method="get">
+        <label for="age">Ikä:</label>
+        <input type="text" id="age" name="age">
+        <input type="submit" value="Lähetä">
+    </form>
 </body>
 </html>
