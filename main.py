@@ -10,3 +10,6 @@ def root():
 def vastaus():
     return render_template('vastaus.html', nimi=request.args['nimi'])
 
+if __name__=='__main__':
+    app.run()
+
